@@ -1,0 +1,67 @@
+body{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+} 
+img{
+    width: 100%;
+}
+.parent_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.parent_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+ 
+}
+.parent_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+   flex-wrap: wrap;
+   gap:20px;
+   width: 50%;
+   justify-content: center;
+    align-items: center;
+}
+.box >div{
+    width: 200px;
+   justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  
+}
+.sunil,.manoj{
+    display: flex;
+    justify-content: center;
+    
+}
+.box  img
+{
+    width: 100px;
+}
+/* .surya > img{
+    width: 50%;
+} */
+ .parent_5
+ {
+    width: fit-content;
+ }
